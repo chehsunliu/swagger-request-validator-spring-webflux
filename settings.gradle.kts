@@ -1,3 +1,6 @@
 rootProject.name = "swagger-request-validator-spring-webflux"
 
-// include("seeder-core")
+ include(
+     "swagger-request-validator-spring-webflux",
+     "swagger-request-validator-examples",
+ )
