@@ -4,15 +4,13 @@ plugins {
     id("com.diffplug.spotless")
 }
 
-group = "io.github.chehsunliu.seeder"
+group = "io.github.chehsunliu.openapi"
 
 repositories {
     mavenCentral()
 }
 
 dependencies {
-    implementation(platform("software.amazon.awssdk:bom:2.31.78"))
-
     testImplementation("org.junit.jupiter:junit-jupiter:5.12.1")
     testRuntimeOnly("org.junit.platform:junit-platform-launcher")
 
