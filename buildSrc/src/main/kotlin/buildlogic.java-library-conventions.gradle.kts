@@ -11,12 +11,12 @@ mavenPublishing {
 
     pom {
         name.set(project.name)
-        description.set("A Java library for data seeding, making data preparation for integration testing easier. ")
-        url.set("https://github.com/chehsunliu/seeder.java")
+        description.set("Integrations between the Swagger Request Validator and the Spring Framework WebTestClient.")
+        url.set("https://github.com/chehsunliu/swagger-request-validator-spring-webflux")
         licenses {
             license {
-                name.set("MIT License")
-                url.set("https://opensource.org/licenses/MIT")
+                name.set("Apache License")
+                url.set("https://opensource.org/license/apache-2-0")
             }
         }
         developers {
@@ -27,9 +27,9 @@ mavenPublishing {
             }
         }
         scm {
-            url.set("https://github.com/chehsunliu/seeder.java")
-            connection.set("scm:git:git://github.com/chehsunliu/seeder.java.git")
-            developerConnection.set("scm:git:ssh://git@github.com/chehsunliu/seeder.java.git")
+            url.set("https://github.com/chehsunliu/swagger-request-validator-spring-webflux")
+            connection.set("scm:git:git://github.com/chehsunliu/swagger-request-validator-spring-webflux.git")
+            developerConnection.set("scm:git:ssh://git@github.com/chehsunliu/swagger-request-validator-spring-webflux.git")
         }
     }
 }
