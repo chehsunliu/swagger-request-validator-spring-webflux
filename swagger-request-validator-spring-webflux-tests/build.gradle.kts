@@ -9,5 +9,7 @@ dependencies {
     testImplementation("org.springframework.boot:spring-boot-starter-test")
     testImplementation("org.springframework.boot:spring-boot-starter-webflux")
 
+    implementation("org.jetbrains:annotations:26.0.2")
+
     testImplementation(project(":swagger-request-validator-spring-webflux"))
 }

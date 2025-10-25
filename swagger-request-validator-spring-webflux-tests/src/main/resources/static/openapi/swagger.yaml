@@ -1,0 +1,67 @@
+openapi: 3.0.0
+info:
+  title: Example
+  version: 0.1.0
+
+paths:
+  /api/v1/health:
+    get:
+      summary: Check the health.
+      responses:
+        "200":
+          description: Successful operation
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    type: object
+                    properties:
+                      status:
+                        type: string
+
+  /api/v1/echo:
+    post:
+      summary: Receive something.
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                key:
+                  type: string
+                value:
+                  type: string
+      responses:
+        "200":
+          description: Successful operation
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    type: object
+                    properties:
+                      s:
+                        type: string
+        "400":
+          description: Successful operation
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  error:
+                    type: object
+                    properties:
+                      code:
+                        type: integer
+                      message:
+                        type: string
+                      detail:
+                        type: object
+                        nullable: true
