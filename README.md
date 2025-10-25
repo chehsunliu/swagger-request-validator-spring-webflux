@@ -1,5 +1,8 @@
 # Swagger Request Validator - Spring WebFlux
 
+[![Test](https://github.com/chehsunliu/swagger-request-validator-spring-webflux/actions/workflows/test.yml/badge.svg)](https://github.com/chehsunliu/swagger-request-validator-spring-webflux/actions/workflows/test.yml)
+![Maven Central Version](https://img.shields.io/maven-central/v/io.github.chehsunliu.openapi/swagger-request-validator-spring-webflux)
+
 A Java library help integrating [Swagger Request Validator](https://bitbucket.org/atlassian/swagger-request-validator)
 with Spring WebClient and WebTestClient.
 
