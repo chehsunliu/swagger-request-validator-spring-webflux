@@ -15,7 +15,7 @@ mavenPublishing {
         url.set("https://github.com/chehsunliu/swagger-request-validator-spring-webflux")
         licenses {
             license {
-                name.set("Apache License")
+                name.set("Apache-2.0 License")
                 url.set("https://opensource.org/license/apache-2-0")
             }
         }
