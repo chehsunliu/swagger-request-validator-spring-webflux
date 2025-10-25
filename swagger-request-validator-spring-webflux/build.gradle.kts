@@ -1,7 +1,13 @@
 plugins {
     id("buildlogic.java-library-conventions")
-    id("org.springframework.boot") version "3.5.6"
+    id("org.springframework.boot") version "3.5.6" apply false
     id("io.spring.dependency-management") version "1.1.7"
+}
+
+dependencyManagement {
+    imports {
+        mavenBom(org.springframework.boot.gradle.plugin.SpringBootPlugin.BOM_COORDINATES)
+    }
 }
 
 dependencies {
